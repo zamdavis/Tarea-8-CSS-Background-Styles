@@ -1,0 +1,58 @@
+.background,body,html{
+    background-image: url(bgtile.png);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+.text{
+    background:linear-gradient(to bottom,yellow,white);
+    margin-left: auto;
+    margin-right: auto;
+    border: 25px solid black;
+    height: 100%;
+    width: 45%;
+}
+.text_content{
+    text-align: center;
+    font-size: 30px;
+}
+h1 {
+    font-weight: normal;
+}
+p{
+    font-size: 38px;
+}
+.boxes_content{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.boxes{
+    background-image: url(star.png);
+    background-color: rgb(91, 185, 91);
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 190px;
+    display: inline-flex;
+    border: solid black 0.4em;
+    border-radius: 1em;
+    border-bottom-left-radius: 4em;
+}
+.box_1{
+    background-size: 35px;
+    background-position:center;
+}
+
+.box_2{
+    background-size: 40px;
+    background-position: 136px 136px;
+    margin-left: 20px;
+}
+.box_3{
+    background-position:center;
+    background-size: 150px;
+}
+.box_4{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-size: 180px;
+}
